@@ -1,1 +1,12 @@
-<h1> Hello World </h1>
+<h1> Convert <%= @ans %>  </h1>
+
+<%= params %>
+
+Go <a href="/"> back </a>
+
+<% @var1.each do |symbols| %>
+
+ <li> Convert <a href="/<%=@ans%>/<%=symbols%>"> <%= symbols%> </a> </li> 
+<% end %>  
+
+ 
